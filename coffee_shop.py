@@ -4,8 +4,7 @@
 # set some variables
 shop_name = "Valkyrie Brew House"
 coffee_sizes = ["small", "medium", "large"]
-coffee_roasts = ["hot chocolate", "light roast",
-                 "medium roast", "dark roast", "espresso"]
+coffee_roasts = ["hot chocolate", "light roast", "medium roast", "dark roast", "espresso"]
 milk_type = ["whole", "2%", "skim", "almond", "oat", "coconut"]
 
 
