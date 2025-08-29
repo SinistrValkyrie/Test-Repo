@@ -4,8 +4,11 @@
 # set some variables
 shop_name = "Valkyrie Brew House"
 coffee_sizes = ["small", "medium", "large"]
-coffee_roasts = ["hot chocolate", "light roast", "medium roast", "dark roast", "espresso"]
+coffee_roasts = ["hot chocolate", "light roast",
+                 "medium roast", "dark roast", "espresso"]
 milk_type = ["whole", "2%", "skim", "almond", "oat", "coconut"]
+
+
 def order_coffee(size, roast):
     """Function to order a coffee from a user
     :parameter size: a string containing one of the coffee_sizes
@@ -14,6 +17,7 @@ def order_coffee(size, roast):
     """
     return "Here's your {} coffee roasted {}!".format(size, roast)
 
+
 def add_milk_please(milk_type):
     """
     Pretend we're adding milk to the coffee
@@ -21,6 +25,7 @@ def add_milk_please(milk_type):
     :return: a message about having added the milk
     """
     return "I've added the {} milk".format(milk_type)
+
 
 def give_tip(tip_amount):
     """
